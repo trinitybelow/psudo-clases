@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: auto;
+}
+
+body {
+   background-image: url(https://st2.depositphotos.com/3649089/9095/i/600/depositphotos_90957880-stock-photo-grey-triangles-geometric-background-polygonal.jpg);
+}
+
+.content {
+    height: 100%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,0.6959654178674352) 0%, rgba(253,29,29,0.6541786743515849) 50%, rgba(252,176,69,0.6873198847262247) 100%);
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.paco {
+    grid-area: 3 / 5 / 10 / 9; 
+    background: rgb(2,0,36);
+    background: linear-gradient(133deg, rgba(2,0,36,1) 0%, rgba(13,159,167,0.6801152737752161) 60%, rgba(0,212,255,0.788953081232493) 100%);
+    width: 400px;
+    padding: 2px;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.541);
+
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(240, 255, 255, 0.897);
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+input {
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 45vh;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    transition: 0.4s ease-in-out;
+}
+
+button {
+    background-color: rgba(22, 22, 199, 0.959); 
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+    border: none; 
+    font-size: 2vh;
+    width: 300px;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 3px; 
+    transition: 0.4s ease-in-out;
+    text-rendering: optimizeLegibility;
+}
+
+.active , .visite , .link {
+    margin: 8px;
+    width: 70px;
+}
+
+button:hover {
+    width: 300px;
+    padding: 10px;
+    font-size: 3vh;
+    background: rgb(251,70,70);
+    background: linear-gradient(15deg, rgba(251,70,70,0.8365721288515406) 0%, rgba(26,107,222,0.8841911764705882) 60%, rgba(26,222,149,0.8841911764705882) 100%);
+    
+}
+
+.active:hover {
+    background-color: rgba(245, 245, 220, 0.397);
+}
+
+.active:active {
+    background-color: rgb(0, 255, 200);
+}
+
+input:disabled {
+    border: 1px solid red;
+}
+
+
+
+.visite:visited {
+    background-color: rgb(255, 0, 0);
+}
+
+.link:hover {
+    font-size: 3vh;
+}
+
+p {
+    margin-top: 10px;
+
+}
+
+p i:first-child {
+    color: rgb(14, 0, 214);
+}
+
+p:hover {
+    background-color: aliceblue;
+    width: 350px;
+    padding: 1vh;
+    text-align: center;
+}
+input:hover {
+    width: 90%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(235, 235, 235);
+}
+
+input:enabled {
+    border: 1px solid blue;
+}
+
